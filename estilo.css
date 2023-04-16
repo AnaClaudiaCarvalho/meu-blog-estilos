@@ -1,0 +1,48 @@
+/* Cores */
+:root {
+  --cor-primaria: #800080; /* Roxo */
+  --cor-secundaria: #FFC0CB; /* Rosa */
+  --cor-terciaria: #000000; /* Preto */
+  --cor-quaternaria: #FFFFFF; /* Branco */
+}
+
+body {
+  background-color: var(--cor-quaternaria);
+  font-family: Arial, sans-serif;
+  color: var(--cor-terciaria);
+}
+
+header {
+  background-color: var(--cor-primaria);
+  text-align: center;
+  padding: 20px;
+}
+
+.blog-title {
+  color: var(--cor-secundaria);
+  font-size: 2.5em;
+}
+
+/* Estilos para a aparência de postagens em formato Polaroid */
+.polaroid-post {
+  position: relative;
+  background-color: var(--cor-quaternaria);
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.polaroid-post h2 {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.polaroid-post img {
+  max-width: 100%;
+}
